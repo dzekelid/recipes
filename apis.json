@@ -1,0 +1,90 @@
+{
+	"name": "Streadata.io API Gallery - Recipes",
+	"description": "This is a repository of recipes APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/recipes.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://recipes.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Pearson plc",
+			"x-api-slug": "pearson-plc",
+			"description": "Offering educational products and services, assessment, and professional development for all stages of learning. Learn more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/238-pearson-plc.jpg",
+			"humanURL": "https://developer.pearson.com/",
+			"baseURL": "https:///",
+			"tags": "Recipes",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/recipes/master/_listings/pearson-plc/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "BigOven",
+			"x-api-slug": "bigoven",
+			"description": "Free recipe app for home cooks. Create a meal plan, grocery list and more from your favorite recipes. Organize your recipe collection and take it anywhere.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/379-bigoven.jpg",
+			"humanURL": "http://www.bigoven.com",
+			"baseURL": "https://api2.bigoven.com//",
+			"tags": "Recipes",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/recipes/master/_listings/bigoven/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Food2Fork",
+			"x-api-slug": "food2fork",
+			"description": "Over 130,000 recipes indexed. Search by ingredients on http://t.co/5O2yNQBfLh. Come join us and lets get cooking!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1725-food2fork.jpg",
+			"humanURL": "http://food2fork.com/about/api",
+			"baseURL": "https:///",
+			"tags": "Recipes",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/recipes/master/_listings/food2fork/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "yummly",
+			"x-api-slug": "yummly",
+			"description": "The smart cooking sidekick that learns what you like and customizes the experience to your personal tastes, nutritional needs, skill level, and more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2155-yummly.jpg",
+			"humanURL": "https://yummly.com",
+			"baseURL": "https:///",
+			"tags": "Recipes",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/recipes/master/_listings/yummly/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Recipes",
+	"include": [
+		{
+			"name": "Pearson plc",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/recipes/master/_listings/pearson-plc/apis.yaml"
+		},
+		{
+			"name": "BigOven",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/recipes/master/_listings/bigoven/apis.yaml"
+		},
+		{
+			"name": "Food2Fork",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/recipes/master/_listings/food2fork/apis.yaml"
+		},
+		{
+			"name": "yummly",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/recipes/master/_listings/yummly/apis.yaml"
+		}
+	]
+}
